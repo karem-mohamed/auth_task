@@ -24,10 +24,8 @@ export class AuthService {
     password: string,
   ): Promise<Pick<User, '_id' | 'name' | 'email'> | null> {
     const user = await this.userService.findOne(email);
-    console.log(user, user?.password);
     if (user) {
       const isMatch = await bcrypt.compare(password, user.password);
-      console.log(isMatch);
       if (!isMatch) {
         this.appLogger.warn(
           `Signin failed - Incorrect password: ${email}`,
