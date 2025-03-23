@@ -1,0 +1,39 @@
+{
+  "hello": "اهلا",
+  "labels": {
+    "welcome": "مرحباً",
+    "login": "تسجيل الدخول",
+    "register": "تسجيل حساب",
+    "email": "البريد الالكتروني",
+    "username": "الاسم",
+    "password": "الرقم السري",
+    "confirm": "تاكيد",
+    "logout": "تسجيل الخروج",
+    "home": "الرئيسية",
+    "cancel": "إلغاء"
+  },
+  "questions": {
+    "have-account": "ليس لديك حساب؟",
+    "have-account-already": "لدي حساب بالفعل"
+  },
+  "placeHolder": {
+    "pls-enter-username-mail": "ادخل الاسم او الايميل",
+    "pls-enter-username": "ادخل الاسم ",
+    "pls-enter-email": "ادخل البريد الالكتروني",
+    "pls-enter-password": "ادخل الرقم السري"
+  },
+  "messages": {
+    "emailRequired": "البريد الالكتروني مطلوب",
+    "usernameRequired": "الاسم مطلوب",
+    "passwordRequired": "كلمة المرور مطلوبة",
+    "shortLongUsername": "يجب أن لا يقل الاسم عن 8 حروف ولا تزيد عن 15 حرف",
+    "shortLongOtp": "يجب أن لا يقل رمز التحقق عن 4 حروف",
+    "invalidEmail": "يجب أن يكون البريد الالكتروني بالصيغة الصحيحة",
+    "inValidPass": " يبلغ طولها 8 أحرف وتتضمن حرفًا واحدًا على الأقل ورقمًا واحدًا وحرفًا خاصًا واحدًا",
+    "shortLongPassword": "يجب أن لا تقل كلمة المرور عن 8 حروف ولا تزيد عن 30 حرف",
+    "required": "هذا الحقل مطلوب",
+    "login-success": "تم تسجيل الدخول بنجاح",
+    "register-success": "تم تسجيل الحساب بنجاح",
+    "no-data": "لا يوجد بيانات ..."
+  }
+}
